@@ -22,7 +22,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run test
-        run: npm i
-        cmd: ['npm','run','test']
+        run: npm run test
+        # cmd: ['npm','run','test']
 
      
